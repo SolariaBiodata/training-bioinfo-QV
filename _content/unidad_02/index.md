@@ -1,0 +1,9 @@
+00_NGS_Library_Formats.md
+01_NCBI_EMBL_Databases.md
+02_Library_Quality_Control.md
+03_Preprocessing_Best_Practices.md
+04_General_Analysis_Pipelines.md
+05_Sequence_Assembly.md
+06_Reference_Mapping.md
+07_Sequence_Clustering_Deduplication.md
+08_Quantification_Base_Calling.md
