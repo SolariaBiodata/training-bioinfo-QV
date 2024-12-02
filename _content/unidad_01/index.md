@@ -1,10 +1,14 @@
-00_Introduction_to_Linux.md
-01_Cloud_Server_Access.md
-02_File_Systems.md
-03_Navigation_Commands.md
-04_System_Commands.md
-05_Text_File_Operations.md
-06_Command_Line_Text_Editing.md
-07_Advanced_Text_Operations.md
-08_Advanced_Filters.md
-09_Pattern_Search.md
+# 1. [Introducción a los Servidores en la Nube](./_content/unidad_01/)
+### 1.1 [Conceptos básicos de la computación en la nube]
+### 1.2 [Ventajas y desventajas del uso de servidores en la nube]
+
+# 2. [Arquitectura de Servidores en la Nube]
+### 1.2 [Componentes clave de un servidor en la nube]
+
+# 3. [Configuración de Acceso a Servidores en la Nube]
+### 3.1 [Protocolos de conexión: SSH, RDP y VPN]
+
+# 4. [Acceso a Servidores en la Nube desde Windows, Mac, Linux]
+
+
+
