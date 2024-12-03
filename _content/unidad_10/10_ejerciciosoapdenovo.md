@@ -1,4 +1,4 @@
-# Ejercicio Práctico: Ensamblaje de Secuencias con SOAPdenovo
+# Ejercicio de Ensamblaje de Secuencias con SOAPdenovo
 
 #### **Objetivo:**
 Ensamblar un conjunto de lecturas de secuenciación usando SOAPdenovo para generar un contig o genoma ensamblado.

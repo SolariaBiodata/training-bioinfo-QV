@@ -1,4 +1,4 @@
-# Ejercicio Práctico: Ensamble de Secuencias con MEGAHIT
+# Ejercicio de Ensamble de Secuencias con MEGAHIT
 
 **Objetivo:** El objetivo de este ejercicio es utilizar MEGAHIT, una herramienta eficiente para el ensamblaje de genomas a partir de datos de secuenciación de alto rendimiento, para ensamblar una muestra de secuencias y evaluar los resultados.
 

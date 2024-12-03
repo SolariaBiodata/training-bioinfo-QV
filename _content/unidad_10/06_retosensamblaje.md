@@ -70,4 +70,4 @@ La secuenciación de ácidos nucleicos, aunque poderosa, enfrenta desafíos sign
 
 #### [Menú Principal](../../index.md)
 #### [Índice](./index.md)
-#### [Siguiente](./07_ejercicioensamblaje.md)
+#### [Siguiente](./07_ejerciciospades.md)
