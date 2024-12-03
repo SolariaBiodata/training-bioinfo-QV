@@ -4,5 +4,6 @@
 ### 1.3 [Métodos de Ensamblaje](./04_metodosdeensamblaje.md)
 ### 1.4 [Herramientas populares](./05_herramientasdeensamblaje.md)
 ### 1.5 [Retos en el Ensamblaje](./06_retosensamblaje.md)
+### 1.6 [Ejercicios con Spades, Velvet, Soapdenovo y/o Trinity](./07_ejercicioensamblaje.md)
 
 #### [Menú Principal](../../index.md)
