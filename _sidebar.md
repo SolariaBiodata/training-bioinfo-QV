@@ -1,6 +1,6 @@
 # Tabla de Contenidos
 
-### 1. Acceso a Servidores de la Nube
+### Acceso a Servidores de la Nube
 
 - [Introducción a los Servidores en la Nube](./docs/unidad_01/01_introduccionalanube.md)
 
