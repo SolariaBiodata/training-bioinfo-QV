@@ -27,7 +27,7 @@ La tabla de ASVs es el producto principal del pipeline de DADA2. Contiene la abu
    colnames(seqtab.nochim)[1:5]
    ```
 
-### Asignación Taxonómica
+## Asignación Taxonómica
 
 DADA2 utiliza bases de datos como SILVA o GreenGenes para asignar una clasificación taxonómica a las ASVs.  
 
@@ -46,7 +46,7 @@ DADA2 utiliza bases de datos como SILVA o GreenGenes para asignar una clasificac
    taxa[1:5, ]
    ```
 
-### Validación de Resultados
+## Validación de Resultados
 
 Para asegurar la fiabilidad de los datos, se realizan verificaciones como:  
 
@@ -70,7 +70,7 @@ Para asegurar la fiabilidad de los datos, se realizan verificaciones como:
    track
    ```
 
-### Visualización de Resultados
+## Visualización de Resultados
 
 La visualización facilita la interpretación de los datos y la comunicación de los hallazgos.  
 
@@ -103,7 +103,7 @@ La visualización facilita la interpretación de los datos y la comunicación de
      plot_ordination(ps, ord, color = "SampleType", title = "PCoA")
      ```
 
-### Exportación de Resultados
+## Exportación de Resultados
 
 Los datos procesados se pueden exportar para integrarlos con otros análisis o herramientas.  
 
@@ -124,7 +124,7 @@ Los datos procesados se pueden exportar para integrarlos con otros análisis o h
    writeXStringSet(DNAStringSet(sequences), "ASVs.fasta")
    ```
 
-### Interpretación de Resultados
+## Interpretación de Resultados
 
 1. **Identificación de patrones:**  
    Analiza cómo se distribuyen las ASVs entre las muestras y los niveles taxonómicos para buscar patrones relevantes.  
@@ -139,4 +139,4 @@ El análisis y visualización de los resultados generados por DADA2 permiten obt
 
 #### [Menú Principal](../../index.md)
 #### [Índice](./index.md)
-#### [Siguiente](./05_resultadosyanálisis.md)
+#### [Siguiente](./06_apliaciones.md)

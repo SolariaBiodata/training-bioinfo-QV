@@ -2,9 +2,8 @@
 
 DADA2 no solo es útil para el análisis estándar de datos de secuenciación de amplicones, sino que también tiene aplicaciones avanzadas en bioinformática, ecología microbiana y estudios biomédicos. Estas aplicaciones aprovechan las fortalezas del enfoque basado en ASVs, como su alta resolución y precisión.
 
----
 
-#### **1. Análisis de Ecosistemas Complejos**  
+## Análisis de Ecosistemas Complejos 
 
 DADA2 permite estudiar ecosistemas con alta diversidad microbiana, como suelos, océanos, o microbiomas humanos.  
 
@@ -16,9 +15,8 @@ DADA2 permite estudiar ecosistemas con alta diversidad microbiana, como suelos, 
    - Exploración de ambientes extremos como termas, fondos marinos o desiertos.  
    - Detección de organismos resistentes a condiciones adversas.  
 
----
 
-#### **2. Diagnóstico Clínico y Biomarcadores**  
+## Diagnóstico Clínico y Biomarcadores  
 
 El pipeline DADA2 se puede aplicar en estudios clínicos para identificar microbiomas asociados a enfermedades.  
 
@@ -30,9 +28,8 @@ El pipeline DADA2 se puede aplicar en estudios clínicos para identificar microb
    - Identificación rápida de microorganismos patógenos en muestras clínicas como heces, saliva o tejido.  
    - Detección de variantes específicas asociadas con resistencia antimicrobiana.  
 
----
 
-#### **3. Monitoreo y Conservación Ambiental**  
+## Monitoreo y Conservación Ambiental 
 
 DADA2 facilita el seguimiento de cambios microbianos en ecosistemas, lo que resulta valioso para la conservación y gestión ambiental.  
 
@@ -44,9 +41,7 @@ DADA2 facilita el seguimiento de cambios microbianos en ecosistemas, lo que resu
    - Análisis de microbiomas en proyectos de restauración ecológica.  
    - Evaluación del efecto de pesticidas o fertilizantes en la microbiota del suelo.  
 
----
-
-#### **4. Estudios Evolutivos y Filogenéticos**  
+## Estudios Evolutivos y Filogenéticos  
 
 DADA2 permite investigar la evolución de microorganismos y sus relaciones filogenéticas.  
 
@@ -57,9 +52,7 @@ DADA2 permite investigar la evolución de microorganismos y sus relaciones filog
 2. **Evolución adaptativa:**  
    - Identificación de variantes adaptativas en comunidades microbianas sometidas a presión ambiental o química.  
 
----
-
-#### **5. Estudios Longitudinales y Temporales**  
+## Estudios Longitudinales y Temporales
 
 DADA2 es ideal para analizar cómo cambian las comunidades microbianas a lo largo del tiempo.  
 
@@ -70,9 +63,7 @@ DADA2 es ideal para analizar cómo cambian las comunidades microbianas a lo larg
 2. **Resiliencia microbiana:**  
    - Análisis de la capacidad de recuperación de comunidades microbianas tras perturbaciones como contaminación o uso de antibióticos.  
 
----
-
-#### **6. Integración con Métodos Multi-Ómicos**  
+## Integración con Métodos Multi-Ómicos 
 
 El uso combinado de DADA2 con otros enfoques ómicos permite un análisis más completo de los ecosistemas microbianos.  
 
@@ -85,9 +76,7 @@ El uso combinado de DADA2 con otros enfoques ómicos permite un análisis más c
 3. **Redes de interacción:**  
    - Construcción de redes ecológicas que muestren interacciones entre microorganismos y su entorno.  
 
----
-
-#### **7. Diseño de Bases de Datos Personalizadas**  
+## Diseño de Bases de Datos Personalizadas
 
 El enfoque basado en ASVs permite crear bases de datos específicas para ciertos entornos o regiones:  
 
@@ -98,9 +87,7 @@ El enfoque basado en ASVs permite crear bases de datos específicas para ciertos
 2. **Bases de datos temáticas:**  
    - Desarrollo de bibliotecas taxonómicas enfocadas en patógenos, organismos probióticos o microbiomas de interés industrial.  
 
----
-
-#### **8. Predicción de Interacciones Microbianas**  
+## Predicción de Interacciones Microbianas
 
 DADA2 proporciona datos de alta resolución para inferir redes de interacción:  
 1. **Co-ocurrencia microbiana:**  
@@ -108,8 +95,8 @@ DADA2 proporciona datos de alta resolución para inferir redes de interacción:
 2. **Modelos de interacción:**  
    - Uso de modelos estadísticos para predecir relaciones simbióticas, competitivas o mutualistas.  
 
----
-
-### **Conclusión**  
-
 Las aplicaciones avanzadas de DADA2 lo convierten en una herramienta versátil y poderosa para abordar preguntas complejas en bioinformática, ecología y medicina. Su capacidad de producir resultados precisos y reproducibles abre la puerta a nuevas oportunidades para comprender y gestionar comunidades microbianas en diversos contextos.
+
+#### [Menú Principal](../../index.md)
+#### [Índice](./index.md)
+#### [Siguiente](./07_buenaspracticasDADA2.md)

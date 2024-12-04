@@ -2,9 +2,7 @@
 
 El pipeline de DADA2 es un flujo de trabajo bioinformático diseñado para procesar datos de secuenciación masiva, eliminando errores técnicos y obteniendo variantes de secuencia de amplicones (ASVs) con precisión. A continuación, se describe cada uno de los pasos del pipeline, desde el control de calidad inicial hasta la obtención de resultados finales.
 
----
-
-### Control de Calidad de Lecturas
+## Control de Calidad de Lecturas
 
 **Objetivo:** Identificar y eliminar lecturas de baja calidad que puedan introducir ruido en el análisis.  
 
