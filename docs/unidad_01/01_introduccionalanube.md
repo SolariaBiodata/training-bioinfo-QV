@@ -86,7 +86,3 @@ Un servidor en la nube es un servidor virtual que se aloja en una infraestructur
    Aunque no se requiere inversión inicial, los costos pueden aumentar con el tiempo si no se administran bien los recursos.
 
 Los servidores en la nube representan una solución moderna y eficiente para empresas y usuarios que necesitan infraestructura tecnológica flexible y accesible. Al ofrecer beneficios como escalabilidad, ahorro de costos y accesibilidad global, se han convertido en una herramienta esencial para la transformación digital en prácticamente todas las industrias.
-
-#### [Menú Principal](../../index.md)
-#### [Índice](./index.md)
-#### [Siguiente](./02_arquitecturadelanube.md)
