@@ -36,6 +36,42 @@ rtg vcfstats variantes/VIH_genome.freebayes.vcf.gz
 ### Con bcftools generar un archivo con los estadísticos.
 ```bash
 bcftools stats -F genoma_de_novo.fasta -s - variantes/VIH.freebayes.vcf.gz > variantes/VIH.freebayes.vcf.gz.stats
+tabix -p vcf variantes/VIH_genome.freebayes.vcf.gz
+rtg vcfstats variantes/VIH_genome.freebayes.vcf.gz
+```
+
+### GATK para generar un archivo de índices y tabla de recalibración
+```bash
+gatk BaseRecalibrator \ 
+-I sample_marked.bam \ 
+-R reference.fasta \ 
+--known-sites dbsnp.vcf \ 
+-O recal_data.table gatk ApplyBQSR \
+-R reference.fasta \ 
+-I sample_marked.bam \
+--bqsr-recal-file recal_data.table \ 
+-O sample_recalibrated.bam
+```
+### Llamado de Variantes en GATK
+```bash
+gatk HaplotypeCaller \ 
+-R reference.fasta \ 
+-I sample_recalibrated.bam \ 
+-O raw_variants.vcf
+```
+### Filtrado de Variantes en GATK
+```bash
+
+gatk VariantFiltration \
+-R reference.fasta \
+-V raw_variants.vcf \
+--filter-expression "QD < 2.0 || FS > 60.0 || MQ < 40.0" \
+--filter-name "LowQuality" \
+-O filtered_variants.vcf
+```
+### Anotación de Variantes 
+```bash
+snpEff annotate -v genome_version filtered_variants.vcf > annotated_variants.vcf
 ```
 
 #### [Menú Principal](../../index.md)
