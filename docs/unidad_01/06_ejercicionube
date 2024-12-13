@@ -1,0 +1,98 @@
+# **Ejercicio: Conexión a un Servidor en la Nube Usando MobaXTerm o SSH**
+
+Este ejercicio tiene como objetivo enseñarte a realizar una conexión remota a un servidor en la nube utilizando herramientas como MobaXTerm o SSH en la terminal de Linux. Utilizaremos MobaXTerm, que es una herramienta popular para gestionar conexiones remotas de forma gráfica, o SSH, que es comúnmente usado en terminales para conexiones seguras.
+
+## **Preparar tu servidor en la nube**
+
+Primero, necesitas tener acceso a un servidor en la nube. Para este ejercicio, usaremos una instancia de servidor en la nube en proveedores como AWS, Azure, Google Cloud o cualquier otro que tenga soporte para conexiones SSH.
+
+1. **Crea una nueva instancia de servidor** en tu proveedor de nube (por ejemplo, una instancia EC2 en AWS, una VM en Google Cloud, o un Droplet en DigitalOcean).
+2. **Genera o utiliza una clave SSH** para autenticarte en el servidor:
+   - Si es un servidor nuevo, el proveedor generalmente te dará la opción de descargar la clave SSH o te permitirá usar una clave existente.
+   - Guarda tu clave privada (`.pem` o `.ppk`) en una ubicación segura.
+
+3. **Obtén la dirección IP pública del servidor**. Esto te permitirá conectarte a tu servidor desde cualquier ubicación con acceso a Internet.
+
+
+## **Usar MobaXTerm para conectarse al servidor**
+
+MobaXTerm es una herramienta con interfaz gráfica para acceder a servidores de manera remota mediante SSH.
+
+1. **Instalar MobaXTerm**:
+   - Si aún no tienes MobaXTerm, descárgalo e instálalo desde su [sitio oficial](https://mobaxterm.mobatek.net/download-home-edition.html).
+
+2. **Abrir MobaXTerm** y crear una nueva sesión SSH:
+   - Haz clic en "Session" en la parte superior izquierda de la ventana.
+   - Selecciona "SSH" como el tipo de sesión.
+   - En el campo **Remote host**, ingresa la dirección IP pública de tu servidor.
+   - En **Specify username**, ingresa el nombre de usuario de tu servidor (por ejemplo, `ubuntu` para servidores de AWS o `root` en otros servidores).
+   - En el campo **Use private key**, selecciona el archivo de clave privada que descargaste anteriormente (por ejemplo, `my-key.pem`).
+   
+3. **Iniciar la sesión**:
+   - Haz clic en "OK" para iniciar la conexión.
+   - Si es la primera vez que te conectas al servidor, MobaXTerm te pedirá que verifiques la autenticidad del host, simplemente acepta y procede.
+   - Después de un par de segundos, deberías estar dentro del servidor y ver un prompt de terminal.
+
+
+## **Usar SSH desde la terminal (Linux o macOS)**
+
+Si prefieres usar la terminal en lugar de una interfaz gráfica, puedes usar el comando SSH desde tu terminal en Linux o macOS.
+
+1. **Abrir la terminal**:
+   - Si estás usando Linux o macOS, abre tu terminal.
+   - Si estás en Windows, puedes usar Git Bash o el terminal de Windows.
+
+2. **Cambiar permisos de la clave privada**:
+   - Asegúrate de que tu clave privada tenga los permisos adecuados. Si tu archivo de clave privada se llama `my-key.pem`, utiliza el siguiente comando:
+     ```bash
+     chmod 400 my-key.pem
+     ```
+
+3. **Conectar al servidor usando SSH**:
+   - Utiliza el siguiente comando para conectarte al servidor:
+     ```bash
+     ssh -i /ruta/a/mi-clave/my-key.pem usuario@ip_publica_del_servidor
+     ```
+     - Reemplaza `/ruta/a/mi-clave/my-key.pem` con la ruta correcta a tu archivo de clave privada.
+     - Reemplaza `usuario` con el nombre de usuario correcto (por ejemplo, `ubuntu` en AWS o `root` en otros servidores).
+     - Reemplaza `ip_publica_del_servidor` con la dirección IP pública de tu servidor.
+
+4. **Aceptar la conexión**:
+   - Si es la primera vez que te conectas, te pedirá confirmar la autenticidad del host. Escribe "yes" y presiona Enter.
+
+5. **Acceder al servidor**:
+   - Si todo está configurado correctamente, después de unos segundos deberías estar conectado al servidor y ver un prompt para interactuar con él.
+
+## **Verificación de la conexión**
+
+1. **Verifica la conexión**:
+   - Una vez conectado, puedes comprobar que tienes acceso al servidor ejecutando comandos como `ls` para listar archivos o `uptime` para ver el tiempo que el servidor ha estado en línea.
+   
+2. **Comandos útiles para gestionar tu servidor**:
+   - Para verificar la configuración del servidor, puedes usar:
+     ```bash
+     uname -a
+     ```
+   - Para ver el estado de la red:
+     ```bash
+     ifconfig
+     ```
+
+## **Solución de problemas comunes**
+
+1. **Conexión rechazada**:
+   - Si la conexión SSH es rechazada, verifica que el puerto SSH (generalmente el puerto 22) esté abierto en el firewall de tu servidor.
+   - Asegúrate de que la clave privada y el nombre de usuario sean correctos.
+
+2. **Permiso denegado**:
+   - Si recibes un mensaje de "Permiso denegado", verifica los permisos de tu clave privada (`chmod 400` en Linux/Mac) y asegúrate de estar utilizando la clave correcta.
+   
+3. **No puedes conectarte a la dirección IP**:
+   - Verifica si tu servidor tiene una IP pública asignada.
+   - Asegúrate de que tu servidor esté en funcionamiento.
+
+
+Conectar a un servidor en la nube mediante SSH, ya sea usando MobaXTerm o la terminal de Linux/macOS, es una habilidad esencial para gestionar servidores remotos. Este ejercicio cubre los pasos fundamentales para realizar la conexión y cómo solucionar los problemas comunes que pueden surgir. Ya sea para administrar servidores, transferir archivos o ejecutar scripts, el acceso remoto seguro es una herramienta poderosa para cualquier administrador de sistemas o desarrollador.
+
+#### [Menú Principal](../../index.md)
+#### [Índice](./index.md)

@@ -100,3 +100,7 @@ Un servidor en la nube combina hardware y software para ofrecer recursos virtual
 
 ### **Conclusión**
 La arquitectura de servidores en la nube y sus componentes clave permiten crear entornos robustos y dinámicos para ejecutar aplicaciones de cualquier escala. Al comprender estos elementos, los usuarios pueden diseñar soluciones optimizadas, escalables y seguras para sus necesidades.
+
+#### [Menú Principal](../../index.md)
+#### [Índice](./index.md)
+#### [Siguiente](./03_configuraciondelanube.md)
