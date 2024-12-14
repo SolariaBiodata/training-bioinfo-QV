@@ -98,3 +98,6 @@ Después de completar el ejercicio, responde a las siguientes preguntas para ref
 2. ¿Qué aspectos de Vi te parecieron más difíciles de aprender?
 3. ¿En qué situaciones crees que Nano sería más útil que Vi?
 4. Si tuvieras que elegir uno de estos editores para un proyecto grande, ¿cuál elegirías y por qué?
+
+#### [Menú Principal](../../index.md)
+#### [Índice](./index.md)
